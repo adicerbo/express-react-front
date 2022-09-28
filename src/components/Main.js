@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const Main = (props) => {
     const [people, setPeople] = useState(null);
 
-    const URL = "http://localhost:4000/people/";
+    const URL = "https://express-react-mern-1.herokuapp.com/people";
 
     const getPeople = async () => {
         const response = await fetch(URL);

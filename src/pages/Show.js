@@ -36,29 +36,29 @@ const Show = (props) => {
                 DELETE
             </button>
             <form onSubmit={handleSubmit}>
-                <input 
-                type="text"
-                value={editForm.name}
-                name="name"
-                onChange={handleChange}
-                />
-                <input 
-                type="text"
-                value={editForm.image}
-                name="image"
-                placeholder="image URL"
-                onChange={handleChange}
-                />
-                <input 
-                type="text"
-                value={editForm.title}
-                name="title"
-                placeholder="title"
-                onChange={handleChange}
+                <input
+                    type="text"
+                    value={editForm.name}
+                    name="name"
+                    onChange={handleChange}
                 />
                 <input
-                type="submit"
-                value="Update Person"
+                    type="text"
+                    value={editForm.image}
+                    name="image"
+                    placeholder="image URL"
+                    onChange={handleChange}
+                />
+                <input
+                    type="text"
+                    value={editForm.title}
+                    name="title"
+                    placeholder="title"
+                    onChange={handleChange}
+                />
+                <input
+                    type="submit"
+                    value="Update Person"
                 />
             </form>
         </div>
